@@ -1,2 +1,2 @@
-# react-org-chart-tutorial
+# fuzzy-search-react
 Created with CodeSandbox

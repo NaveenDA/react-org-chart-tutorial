@@ -1,2 +1,1 @@
-# fuzzy-search-react
-Created with CodeSandbox
+# React Org Chart Tutorial

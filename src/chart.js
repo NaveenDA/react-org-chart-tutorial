@@ -5,7 +5,9 @@ import call from "./icons8-call-50.png";
 import video from "./icons8-video-24.png";
 import chat from "./icons8-chat-50.png";
 import data from "./data.json";
-
+function randomIntFromInterval(min, max) { // min and max included 
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
 const Card = (props) => {
   const levelColor = randomcolor();
 
@@ -17,7 +19,7 @@ const Card = (props) => {
             <div className="card">
               <div className="image">
                 <img
-                  src={"https://randomuser.me/api/portraits/men/"+index+".jpg"}
+                  src={"https://randomuser.me/api/portraits/men/"+randomIntFromInterval(1,100)+".jpg"}
                   alt="Profile"
                   style={{ borderColor: levelColor }}
                 />

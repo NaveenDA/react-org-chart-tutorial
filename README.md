@@ -1,6 +1,6 @@
 # React Org Chart Tutorial
 
-![./chart.png](Screenshot)
+![Screenshot](./chart.png)
 
 Please checkout the tutorial : https://naveenda.medium.com/how-to-make-the-employee-hierarchy-chart-using-react-d48c7ca440c3
 

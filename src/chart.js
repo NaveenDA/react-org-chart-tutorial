@@ -1,7 +1,9 @@
 import React, { Fragment } from "react";
 import randomcolor from "randomcolor";
 import faker from "faker";
-
+import call from "./icons8-call-50.png";
+import video from "./icons8-video-24.png";
+import chat from "./icon8-chat-50.png";
 import data from "./data.json";
 
 const Card = (props) => {
@@ -9,13 +11,13 @@ const Card = (props) => {
 
   return (
     <ul>
-      {props.data.map((item) => (
+      {props.data.map((item,index) => (
         <Fragment key={item.name}>
           <li>
             <div className="card">
               <div className="image">
                 <img
-                  src={faker.image.avatar()}
+                  src={"https://randomuser.me/api/portraits/men/"+index+".jpg"}
                   alt="Profile"
                   style={{ borderColor: levelColor }}
                 />
@@ -26,15 +28,15 @@ const Card = (props) => {
               </div>
               <div className="card-footer" style={{ background: levelColor }}>
                 <img
-                  src="https://www.flaticon.com/svg/static/icons/svg/2950/2950657.svg"
+                  src={chat}
                   alt="Chat"
                 />
                 <img
-                  src="https://www.flaticon.com/svg/static/icons/svg/1034/1034131.svg"
+                  src={call}
                   alt="Call"
                 />
                 <img
-                  src="https://www.flaticon.com/svg/static/icons/svg/570/570387.svg"
+                  src={video}
                   alt="Video"
                 />
               </div>

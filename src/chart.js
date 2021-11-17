@@ -3,7 +3,7 @@ import randomcolor from "randomcolor";
 import faker from "faker";
 import call from "./icons8-call-50.png";
 import video from "./icons8-video-24.png";
-import chat from "./icon8-chat-50.png";
+import chat from "./icons8-chat-50.png";
 import data from "./data.json";
 
 const Card = (props) => {

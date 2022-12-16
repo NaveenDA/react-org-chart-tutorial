@@ -8,12 +8,12 @@ export default function App() {
       <div className="header">
         React Employee Hierarchy Chart
         <span className="follow">
-          <a href="https://twitter.com/naveenda_">
+          <a href="https://twitter.com/salimdinesh12">
             <img
-              alt="Follow @naveenda_"
+              alt="Follow @dineshkarthi12"
               src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
             />
-            Follow @naveenda_
+            Follow @dineshkarthi12
           </a>
         </span>
       </div>
